@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="CVformulaire_techweb.css"/>
+    <title>Curriculum vitae</title>
+    </header>
+    <body class="section">
+    <form  id="signup"><!--pour indiquer que c'est un formulaire-->
+        <h1>Formulaire CV</h1>
+    <div class="cnt">
+      <div class="left">
+         <div class="prfl">
+            <div class="img">
+             <input type="file" accept="image/png, image/jpeg, image/jpg">
+            </div>
+            <h2>
+          <span>Titre du cv:<input type="text" name="titre" size=10 style="color:black"></span><br><br>
+            <span>Nom:<input type="text" id="nom"   size=10 style="color: black"/></span>
+           <button id="btnom" type="button">valider</button>  <br>   <br>   
+            <span>Prénom:<input type="text" id="prénom"  size=10 style="color: black"/></span>
+          <button id="btprénom" type="button">valider</button><br> <br>
+            <span>Age:<input type="text" id="age"  size=5 style="color: black"/></span>
+          <button id="btage" type="button">valider</button> <br> <br>
+            <span>Adresse:<input type="text" id="adress" size=25 style="color: black"/></span>
+          <button id="btadress" type="button"> valider</button><br> <br>
+          <span>Email:<input type="text" id="mail"  size=25 style="color: black"/></span>
+          <button id="btmail" type="button">valider</button><br> <br>
+            </h2>
+         </div>
+         
+         
+          <br> <br> <br><br> 
+          
+            
+      </div>
+    <div class="right">
+       <div class="op">
+           <h2 class="titleop">OBJECTIF PROFESSIONNEL</h2><br>
+          <p>
+           <textarea id="obj" rows="10" cols="100"></textarea><!--une zone de text avec ces dimensions-->
+          <button type="button" id="btobj">valider</button>
+           </p> 
+       </div>
+          <br><br>
+    
+       <div class="fd">
+           <h2 class="titlefd">FORMATIONS ET DIPLOMES</h2><br>
+           <ul>
+           <li><input type="text" id="f1" size=100></li>
+           <li><input type="text" id="f2" size=100></li>
+           <li><input type="text" id="f3" size=100></li>
+           <li><input type="text" id="f4" size=100></li>
+           <br><br>
+    
+       </div>
+       <br>
+       <div class="ct">
+           <h2 class="titlect">COMPETENCES TECHNIQUES</h2><br>
+           <ul>
+           <li><input type="text" id="c1" size=100></li>
+           <li><input type="text" id="c2" size=100></li>
+           <li><input type="text" id="c3" size=100></li>
+           <li><input type="text" id="c4" size=100></li>
+           <br><br>
+    
+       </div>
+           
+       
+        <div class="lg"> 
+            <h2 class="titlelg">LANGUES</h2> <br>
+           <ul>
+            <li>
+            
+             <h4>Arabe:</h4>
+            
+            <span class="percent">
+               <input type="radio" id="n1"  />Débutant
+               <input type="radio" id="n1"  />Intermédiaire
+               <input type="radio" id="n1"  />Avancé
+               <input type="radio" id="n1"  />Maîtrise
+            </span>
+              <br>
+            </li>
+            <br>
+     
+            <li>
+            
+             <h4>Francais:</h4>
+           
+            <span class="percent">
+              <input type="radio" id="n2"  />Débutant
+               <input type="radio" id="n2"  />Intermédiaire
+               <input type="radio" id="n2"  />Avancé
+               <input type="radio" id="n2"  />Maîtrise
+            </span>
+            </li>
+            <br>
+     
+            <li>
+             <h4>Anglais:</h4>
+         
+            <span class="percent">
+              <input type="radio" id="n3"  />Débutant
+               <input type="radio" id="n3" />Intermédiaire
+               <input type="radio" id="n3"  />Avancé
+               <input type="radio" id="n3"  />Maîtrise
+            </span>
+            </li>
+            <br>
+     
+            <li>
+            
+             <h4><input type="text" Id="autre" size=10/></h4>
+            <span class="percent">
+              <input type="radio" name="n4"  />Débutant
+               <input type="radio" name="n4"  />Intermédiaire
+               <input type="radio" name="n4"  />Avancé
+               <input type="radio" name="n4"  />Maîtrise
+            </span>
+            </li>
+            
+           </ul>
+          </div>
+          <div class="autre">
+            <h2 class="titleaut">LOISIRS</h2><br>
+            <ul>
+            <li><input type="text" id="a1" size=30></li><br>
+            <li><input type="text" id="a2" size=30></li><br>
+            <li><input type="text" id="a3" size=30></li><br>
+            </ul>
+         </div>
+            
+        
+       </div>
+       <input type="submit" id="valider" value="Envoyer" />
+        <input type="reset" id="rejeter" value="Annuler" />
+       
+    </div>
+    <span><footer>
+       <pre><!--pour retranscrire dans lapage web la phrase tel qu'elle est-->
+                                Edité par: Houda Belabbes, Loubna El-hasany et Lilya Hourairi                              Dernière mise à jour: le 12/10/2022                    
+       </pre>
+       </footer></span>
+     </div>
+     <script src="CV_groupe.js"></script>
+     </form>
+     
+    </body>
+    
+    
+    </html>
